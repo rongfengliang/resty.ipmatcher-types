@@ -1,0 +1,22 @@
+{
+  "name": "@dalongrong/resty.ipmatcher",
+  "version": "1.0.0",
+  "files": [
+    "index.d.ts"
+  ],
+  "license": "MIT",
+  "types": "index.d.ts",
+  "dependencies": {
+    "lua-types": "^2.11.0"
+  },
+  "scripts": {
+    "p":"yarn publish"
+  },
+  "devDependencies": {
+    "typescript-to-lua": "^1.4.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.com"
+  }
+}
