@@ -7,9 +7,9 @@ declare module  "resty.ipmatcher" {
         new: (this: void,ips:string[]) =>  LuaMultiReturn<[IpMatcher, string]>;
         new_with_value: (this: void,ips:Record<string,any>) => LuaMultiReturn<[IpMatcher, string]>;
         /** @noSelf */
-        parse_ipv4(ip:stirng):true|false
+        parse_ipv4(ip:string):true|false
         /** @noSelf */
-        parse_ipv6(ip:stirng):true|false
+        parse_ipv6(ip:string):true|false
     }
     const ipmatcher:myIpmatcherConstructor
     export = {
